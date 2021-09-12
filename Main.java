@@ -22,7 +22,7 @@ class Main {
     String[] userAnswers = new String[numQs];
   
 
-    // saves all questions and answers in the quiz into their respective arraylists
+    // saves all questions and answers in the quiz into their respective arrays
     for (int questionCount = 0; questionCount < numQs; questionCount++){
       questions[questionCount] = enterQ(questionCount); 
       answers[questionCount] = enterA(questionCount); 
@@ -35,7 +35,7 @@ class Main {
     System.out.println("The quiz will start now! \n");
 
     // 1. outputs quiz questions and asks user to input answers
-    //    answers are saved into arraylist
+    //    answers are saved into array
     for (int questionCount = 0; questionCount < numQs; questionCount++){
       Scanner userQuizInput = new Scanner(System.in);
 
