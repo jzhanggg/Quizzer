@@ -6,8 +6,6 @@ import java.util.ArrayList;
 //The final score the user achieves in the quiz and the wrong questions' answers will be printed
 //have fun! 
 
-
-
 class Main {
   public static void main(String[] args) {
     int numQs;
